@@ -1,10 +1,6 @@
 package com.guo.analyze;
 import com.guo.analyze.config.ObjectFactory;
 import com.guo.analyze.crawler.Crawler;
-import com.guo.analyze.crawler.common.Page;
-import com.guo.analyze.crawler.parse.DataPageParse;
-import com.guo.analyze.crawler.parse.DocumentParse;
-import com.guo.analyze.crawler.pipeline.DatabasePipeline;
 import com.guo.analyze.web.WebController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

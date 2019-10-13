@@ -149,9 +149,6 @@ public class ItemsController {
         return "redirect:queryitemsbyname.action";
     }
 
-
-    ///新增需求----小明
-
     //去到批量更新的页面并且显示所有的数据
     @RequestMapping(value = "/batchUpdate")
     public ModelAndView batchUpdate(HttpServletResponse response,ItemsVO itemsVO) throws Exception{

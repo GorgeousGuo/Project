@@ -11,6 +11,7 @@ public class DataPageParse implements Parse {
         if(!page.isDetail()){
            return;
         }
+
         HtmlPage htmlPage = page.getHtmlPage();
         HtmlElement body = htmlPage.getBody();
         //标题

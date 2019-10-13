@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 
 
 /*
-* 连接解析
+* 链接解析
 * */
 public class DocumentParse implements Parse {
     @Override

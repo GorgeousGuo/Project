@@ -35,7 +35,6 @@ public final class ObjectFactory {
         initCrawler();
         //4·Web对象
         initWebController();
-
         //5·对象清单打印输出
         printObjectList();
     }

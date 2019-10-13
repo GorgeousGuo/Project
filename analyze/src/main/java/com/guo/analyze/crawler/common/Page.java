@@ -13,14 +13,11 @@ public  class Page {
 
     /**
      * 数据网站的根地址
-     * eg：
      */
-
     private final String base;
 
     /**
      * 具体网页路径
-     * eg：
      */
     private final String path;
 

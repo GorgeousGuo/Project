@@ -12,13 +12,8 @@ import java.util.Map;
 
 @ToString
 public class DataSet {
-
-
     /**
      * data把DOM解析，清洗之后存储的数据
-     * eg：标题：
-     *     作者：
-     *     正文：
      */
     private Map<String,Object> data = new HashMap<>();
 
